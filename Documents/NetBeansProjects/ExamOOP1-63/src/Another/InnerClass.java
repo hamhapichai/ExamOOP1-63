@@ -33,8 +33,11 @@ class Runclass{
         InnerClass obj = new InnerClass();
         obj.cal2();
         InnerClass.Inner1 obj1 = new InnerClass.Inner1();
+        obj1.cal1();
         InnerClass.Inner2 obj2 = new InnerClass.Inner2();
+        obj2.cal2();
         InnerClass.Inner1.Inner1_1 obj3 = new InnerClass.Inner1.Inner1_1();
+        obj3.cal1_1();
         std621320104.Calculate obj4 = new std621320104.Calculate();
     }
 }
